@@ -4,8 +4,8 @@ const cors = require('cors');
 const PORT = 3001;
 
 // Import the countries route
-const countriesRoute = require('./routes/countries');
-const soulmateDatesRoutes = require('./routes/soulmate_dates');
+const countriesRoute = require('./countries');
+const soulmateDatesRoutes = require('./soulmate_dates');
 
 app.use(cors());
 app.use(express.json());
